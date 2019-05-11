@@ -8,6 +8,13 @@ if [ -z $1 ]
         set $1 8080
 fi
 
+
+# Add Case Switch for flags for 
+# If Debian/Ubuntu
+# If CentOS RedHat SuSE
+# Else
+
+
 echo "Starting echo-server on localhost port $1"
 echo "Check '/tmp/webtrans.nc' for transactions recieved"
 rm -f /tmp/webtrans.nc
